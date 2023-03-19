@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RestoreMessage UI tests should render correctly 1`] = `
+<div>
+  <div
+    class="restore-message"
+  >
+    <h3
+      class="restore-message__title"
+    >
+      Message sent successfully
+    </h3>
+    <p
+      class="restore-message__description"
+    >
+      If you input correct email and do not receive the message in your email, please check your spam folder.
+    </p>
+  </div>
+</div>
+`;

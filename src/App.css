@@ -1,0 +1,28 @@
+@import './normalize.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  --color-primary: #3B4143;
+  --color-primary-transparent: #3b4143b3;
+  --color-primary-light: #F9F9F9;
+  --color-primary-blue: #5C99FC;
+  --color-primary-error: #eb5757;
+  --color-primary-warning: #c78f22;
+  --color-secondary: #000000;
+  --color-secondary-white: #FFFFFF;
+  --color-secondary-blue: #9EB0D3;
+  --color-secondary-mad-blue: #DDE1F3;
+  --color-secondary-gray: #BDBDBD;
+  --color-secondary-error: #FF0000;
+  --color-transparent: #ffffff00;
+  color: var(--color-primary);
+}
+
+body {
+  box-sizing: border-box;
+  max-width: 1440px;
+  margin: 0 auto;
+}

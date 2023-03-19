@@ -1,0 +1,29 @@
+.subheader {
+  min-height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-primary-light);
+}
+
+.subheader__links {
+  display: flex;
+  align-items: center;
+}
+
+.subheader__item {
+  margin: 0 39px;
+}
+
+.subheader__link {
+  color: var(--color-primary);
+  font-weight: 300;
+  font-size: 12px;
+  transition: 0.2s all;
+  letter-spacing: 0.3px;
+}
+
+.subheader__link:hover {
+  opacity: 0.7;
+  color: inherit;
+}

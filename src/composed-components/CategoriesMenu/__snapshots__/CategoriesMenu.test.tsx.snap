@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Conditions UI tests should render correctly 1`] = `
+<div>
+  <div
+    class="categories-menu"
+  />
+  <div
+    class="discount__block "
+  >
+    <div
+      class="categories-menu__btn"
+    >
+      <p
+        class="discount__sell-now"
+      >
+        Sell Now
+      </p>
+      <p
+        class="discount__sell-now__description"
+      >
+        You can place your ad for aviation equipment
+      </p>
+      <button
+        class="ant-btn ant-btn-default discount__sell-now__btn"
+        type="button"
+      >
+        <span>
+          Sell Now 
+        </span>
+      </button>
+    </div>
+    <div
+      class="categories-menu__discount"
+    >
+      <reactcomponent />
+      <div
+        class="discount__area"
+      >
+        <p
+          class="q"
+        >
+          -50%
+        </p>
+        <p
+          class="qq"
+        >
+          have time to buy a subscription
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

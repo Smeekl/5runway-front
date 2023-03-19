@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main UI tests should render correctly 1`] = `
+<div>
+  <main
+    class="main"
+  >
+    <div
+      class="main__find-aircraft find-aircraft"
+    >
+      <h1
+        class="find-aircraft__title"
+      >
+        Find your AirCraft
+      </h1>
+      <p
+        class="find-aircraft__subtitle"
+      >
+        A huge selection of aviation equipment
+      </p>
+      <div
+        class="find-aircraft__search"
+      >
+        <span
+          class="ant-input-affix-wrapper search__field"
+        >
+          <span
+            class="ant-input-prefix"
+          >
+            <reactcomponent
+              class="search__icon"
+            />
+          </span>
+          <input
+            class="ant-input"
+            type="text"
+            value=""
+          />
+        </span>
+        <button
+          class="ant-btn ant-btn-default find-aircraft__btn"
+          type="button"
+        >
+          <span>
+            Search
+          </span>
+        </button>
+      </div>
+      <div
+        class="find-aircraft__background"
+      >
+        <img
+          class="find-aircraft__image"
+          src="test-file-stub"
+        />
+      </div>
+    </div>
+    <div
+      class="main__categories"
+    >
+      <h2>
+        Categories
+      </h2>
+    </div>
+    <div
+      class="main__top-products"
+    >
+      <h2>
+        Top products
+      </h2>
+    </div>
+    <div
+      class="main__articles"
+    >
+      <h2>
+        Articles
+      </h2>
+    </div>
+  </main>
+</div>
+`;

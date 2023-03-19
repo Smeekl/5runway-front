@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main UI tests should render correctly 1`] = `
+<div>
+  <div
+    class="conditions"
+  >
+    <div
+      class="conditions__header"
+    >
+      <span>
+        <reactcomponent />
+      </span>
+      <p
+        class="condition__title"
+      >
+        Terms and Conditions
+      </p>
+    </div>
+    <div>
+      <p
+        class="condition__items"
+      >
+        Generally, Terms & Conditions are not a legal requirement, though, in many instances its in your best interest to have one in place. This is because Terms & Conditions are necessary for governing the contractual relationship between you and your users. They are essential for protecting your content from a copyright perspective as well as protecting you from potential liabilities.
+      </p>
+      <p
+        class="condition__items"
+      >
+        Youll likely need a Terms & Conditions document if any of the following apply to you:
+      </p>
+      <p
+        class="condition__items"
+      >
+        1. You have different user levels (eg. registered vs non-registered);
+      </p>
+      <p
+        class="condition__items"
+      >
+        2. You want to set the rules for user behavior (including comments) and state grounds for termination of accounts;
+      </p>
+      <p
+        class="condition__items"
+      >
+        3. Your users are allowed to upload content;
+      </p>
+      <p
+        class="condition__items"
+      >
+        4. You participate in some kind of commerce, including affiliate programs;
+      </p>
+      <p
+        class="condition__items"
+      >
+        5. Youd like to protect your website/app and its content by stating how it can be used.
+      </p>
+    </div>
+    <div
+      class="condition__check"
+    >
+      <label
+        class="container"
+      >
+        <input
+          class="check-highload"
+          type="checkbox"
+        />
+        <span
+          class="highload2"
+        />
+      </label>
+      <p
+        class="condition__items check-cursor"
+      >
+        I have read this it and agree to the terms conditions
+      </p>
+    </div>
+  </div>
+</div>
+`;

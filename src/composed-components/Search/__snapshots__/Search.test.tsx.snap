@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RestorePassword UI tests should render correctly 1`] = `
+<div>
+  <div
+    class="search"
+  >
+    <h1
+      class="search__header"
+    >
+      Search
+    </h1>
+    <div
+      class="search__field"
+    >
+      <span
+        class="ant-input-affix-wrapper search__field"
+      >
+        <input
+          class="ant-input"
+          type="text"
+          value=""
+        />
+        <span
+          class="ant-input-suffix"
+        >
+          <reactcomponent
+            class="search__icon"
+          />
+        </span>
+      </span>
+    </div>
+    <div
+      class="search__suphistory suphistory"
+    >
+      <span
+        class="suphistory__tile"
+      >
+        History
+      </span>
+      <span
+        class="suphistory__link"
+      >
+        CLEAR
+      </span>
+    </div>
+    <ul
+      class="search__history history"
+    >
+      <li>
+        No history
+      </li>
+    </ul>
+    <button
+      class="ant-btn ant-btn-default search__show"
+      type="button"
+    >
+      <span>
+        Show results
+      </span>
+    </button>
+  </div>
+</div>
+`;

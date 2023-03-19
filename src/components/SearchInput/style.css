@@ -1,0 +1,11 @@
+.search__field {
+  width: 343px;
+  height: 40px;
+  border-radius: 15px;
+  border: 1px solid var(--color-secondary-mad-blue);
+}
+
+.search__icon {
+  cursor: pointer;
+  display: inline-flex;
+}

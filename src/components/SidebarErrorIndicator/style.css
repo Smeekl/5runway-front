@@ -1,0 +1,25 @@
+.sidebar__error-indicator {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  color: var(--color-primary-error);
+  height: 15px;
+  margin-bottom: 5px;
+  padding-left: 5px;
+  opacity: 0;
+}
+
+.sidebar__error__active {
+  opacity: 1;
+}
+
+.sidebar__error-icon {
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.sidebar__error-icon svg path {
+  fill: var(--color-secondary-error);
+}

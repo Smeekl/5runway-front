@@ -1,0 +1,106 @@
+.icons__btn {
+  border: 0;
+  padding: 0;
+  transition: 0.2s all;
+}
+
+.icons__btn:hover {
+  opacity: 0.7;
+}
+
+.header__main {
+  min-height: 70px;
+  min-width: 100%;
+  padding: 0 5% 0 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 0 3%;
+}
+
+.logo__icon {
+  display: inline-flex;
+}
+
+.header__logo {
+  transition: 0.2s all;
+}
+
+.header__logo:hover {
+  opacity: 0.7;
+}
+
+.search {
+  margin: 0 2.5%;
+}
+
+.icons {
+  width: 4.2%;
+  margin: 0 4.2%;
+}
+
+.options__items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.options__btn {
+  width: 127px;
+  height: 36px;
+  background: var(--color-secondary-mad-blue);
+  border-radius: 15px;
+  border: none;
+}
+
+.options__btn > span {
+  transition: 0.2s all;
+  font-weight: 500;
+}
+
+.options__btn:hover {
+  background: var(--color-primary);
+  border-radius: 15px;
+  border: none;
+}
+
+.options__btn:hover > span {
+  color: var(--color-secondary-white);
+}
+
+.options__btn > svg > path {
+  transition: 0.2s all;
+}
+
+.options__btn:hover > svg > path,
+.options__btn:focus > svg > path {
+  fill: var(--color-secondary-white);
+}
+
+.options__btn:focus {
+  background: var(--color-primary);
+  border-radius: 15px;
+  border: none;
+}
+
+.options__btn:focus > span {
+  color: var(--color-secondary-white);
+}
+
+.options__compare {
+  margin-right: 7px;
+}
+
+.icons__items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.options {
+  padding: 0.5%;
+  width: 34%;
+}

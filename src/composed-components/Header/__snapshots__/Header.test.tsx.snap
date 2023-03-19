@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header UI tests renders CategoriesMenuCard 1`] = `
+<div>
+  <header
+    class="header"
+  >
+    <div
+      class="header__main"
+    >
+      <a
+        class="header__logo logo"
+        href="/"
+      >
+        <reactcomponent
+          class="logo__icon"
+        />
+      </a>
+      <div
+        class="header__search search"
+      >
+        <span
+          class="ant-input-affix-wrapper search__field"
+        >
+          <input
+            class="ant-input"
+            type="text"
+            value=""
+          />
+          <span
+            class="ant-input-suffix"
+          >
+            <reactcomponent
+              class="search__icon"
+            />
+          </span>
+        </span>
+      </div>
+      <div
+        class="header__options options"
+      >
+        <ul
+          class="options__items"
+        >
+          <li
+            class="options__item"
+          >
+            <a
+              class="options__link"
+              href="/"
+            >
+              <button
+                class="ant-btn ant-btn-default options__btn"
+                type="button"
+              >
+                <span>
+                  Sell Now
+                </span>
+              </button>
+            </a>
+          </li>
+          <li
+            class="options__item"
+          >
+            <a
+              class="options__link"
+              href="/"
+            >
+              <button
+                class="ant-btn ant-btn-default options__btn"
+                type="button"
+              >
+                <reactcomponent
+                  class="options__compare"
+                />
+                <span>
+                  Compare
+                </span>
+              </button>
+            </a>
+          </li>
+          <li
+            class="options__item"
+          >
+            <a
+              class="options__link"
+              href="/"
+            >
+              <button
+                class="ant-btn ant-btn-default options__btn"
+                type="button"
+              >
+                <span>
+                  Filter
+                </span>
+              </button>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="header__icons icons"
+      >
+        <ul
+          class="icons__items"
+        >
+          <li
+            class="icons__item"
+          >
+            <a
+              href="/"
+            >
+              <button
+                class="ant-btn ant-btn-default icons__btn"
+                type="button"
+              >
+                <reactcomponent />
+              </button>
+            </a>
+          </li>
+          <li
+            class="icons__item"
+          >
+            <a
+              href="/"
+            >
+              <button
+                class="ant-btn ant-btn-default icons__btn"
+                type="button"
+              >
+                <reactcomponent />
+              </button>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      class="subheader"
+    >
+      <ul
+        class="subheader__links"
+      >
+        <li
+          class="subheader__item"
+        >
+          <a
+            class="subheader__link"
+            href="/"
+          >
+            CATEGORIES
+          </a>
+        </li>
+        <li
+          class="subheader__item"
+        >
+          <a
+            class="subheader__link"
+            href="/"
+          >
+            TOP PRODUCT
+          </a>
+        </li>
+        <li
+          class="subheader__item"
+        >
+          <a
+            class="subheader__link"
+            href="/"
+          >
+            ARTICLES
+          </a>
+        </li>
+        <li
+          class="subheader__item"
+        >
+          <a
+            class="subheader__link"
+            href="/"
+          >
+            PRICING
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+</div>
+`;

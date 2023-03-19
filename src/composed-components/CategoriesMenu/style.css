@@ -1,0 +1,65 @@
+.categories-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.categories-menu__discount {
+  margin-right: 180px;
+  position: relative;
+}
+
+.discount__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.categories-menu__btn {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
+
+.discount__area {
+  padding: 20px 20px 20px 20px;
+  right: -179px;
+  top: 115px;
+  border-radius: 20px;
+  width: 228px;
+  height: 174px;
+  position: absolute;
+  flex-direction: row;
+  background: var(--color-primary);
+}
+.q {
+  font-weight: 800;
+  font-size: 36px;
+  color: var(--color-primary-blue);
+  margin: 0;
+}
+.qq {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+  color: var(--color-secondary-white);
+}
+
+.discount__sell-now__btn {
+  color: var(--color-secondary-white);
+  width: 343px;
+  height: 48px;
+  background: var(--color-primary-blue);
+  border-radius: 15px;
+  transition: 0.3s all;
+  z-index: 999999;
+}
+.discount__sell-now {
+  font-weight: 700;
+  font-size: 40px;
+}
+.discount__sell-now__description {
+  width: 195px;
+  font-weight: 300;
+  font-size: 18px;
+}

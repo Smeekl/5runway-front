@@ -1,0 +1,20 @@
+.sidebar__field-wrapper {
+  position: relative;
+}
+
+.sidebar__eye-icon {
+  font-size: 16px;
+  position: absolute;
+  top: 12px;
+  right: 50px;
+  cursor: pointer;
+}
+
+.sidebar__field {
+  border: 1px solid var(--color-secondary-mad-blue);
+  border-radius: 15px;
+  width: 343px;
+  height: 40px;
+  padding-left: 10px;
+  margin-bottom: 4px;
+}

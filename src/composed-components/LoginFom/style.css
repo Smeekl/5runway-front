@@ -1,0 +1,64 @@
+.login-sidebar {
+  padding-top: 62px;
+  padding-left: 35px;
+}
+
+.login-sidebar__name {
+  margin-bottom: 8px;
+}
+
+.login-sidebar__field {
+  border: 1px solid var(--color-secondary-mad-blue);
+  border-radius: 15px;
+  width: 343px;
+  height: 40px;
+  padding-left: 10px;
+  margin-bottom: 4px;
+}
+
+.login-sidebar__login,
+.login-sidebar__login:disabled,
+.login-sidebar__login:focus {
+  background: var(--color-primary-blue);
+  border-radius: 15px;
+  width: 343px;
+  height: 48px;
+}
+
+.login-sidebar__login > span,
+.login-sidebar__login:disabled > span {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--color-secondary-white);
+  font-size: 16px;
+}
+
+.login-sidebar__login:hover,
+.login-sidebar__login:disabled:hover {
+  background: var(--color-primary);
+  border: none;
+}
+
+.login-form__google {
+  background: var(--color-primary);
+  border: none;
+  border-radius: 15px;
+  height: 48px;
+  width: 162px;
+  margin-bottom: 150px;
+}
+
+.login-form__google:hover {
+  background: var(--color-primary);
+  opacity: 0.7;
+}
+
+.login-form__googlee:focus {
+  background: var(--color-primary);
+}
+
+.login-form__google > span {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--color-secondary-white);
+}

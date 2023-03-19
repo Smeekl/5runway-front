@@ -1,0 +1,81 @@
+.main {
+  padding: 168px 165px 0 165px;
+  position: relative;
+}
+
+.find-aircraft {
+  min-height: 540px;
+}
+
+.find-aircraft__title {
+  font-weight: 900;
+  font-size: 58px;
+  color: var(--color-primary);
+  margin: 0 0 2px 0;
+}
+
+.find-aircraft__subtitle {
+  font-size: 18px;
+  font-weight: 300;
+  width: 255px;
+}
+
+.find-aircraft__search {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  width: 470px;
+}
+
+.find-aircraft__field {
+  width: 349px;
+  height: 40px;
+  border: 1px solid var(--color-secondary-mad-blue);
+  border-radius: 15px;
+}
+
+.find-aircraft__btn {
+  width: 168px;
+  height: 41px;
+  background: var(--color-primary-blue);
+  border-radius: 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: 0.3s all;
+  z-index: 2;
+}
+
+.find-aircraft__btn > span {
+  font-size: 16px;
+  color: var(--color-secondary-white);
+}
+
+.find-aircraft__btn:hover,
+.find-aircraft__btn:focus {
+  background: var(--color-primary);
+  border: 0;
+}
+
+.find-aircraft__background {
+  z-index: -1;
+  background: url(../../assets/mainPage/helicopterBackground.svg) no-repeat;
+  background-position: -10px -85px;
+  position: absolute;
+  top: 35px;
+  right: 0;
+  min-height: 800px;
+}
+
+.main__categories {
+  min-height: 906px;
+}
+
+.main__top-products {
+  min-height: 1337px;
+}
+
+.main__articles {
+  min-height: 793px;
+}

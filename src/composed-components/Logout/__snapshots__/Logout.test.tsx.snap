@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logout UI tests should render correctly 1`] = `
+<div>
+  <div
+    class="logout"
+  >
+    <h3
+      class="logout__title"
+    >
+      Logout
+    </h3>
+    <p
+      class="logout__text"
+    >
+      Do you really want to leave?
+    </p>
+    <div
+      class="logout__buttons"
+    >
+      <button
+        class="ant-btn ant-btn-default logout__button"
+        type="button"
+      >
+        <span>
+          Yes
+        </span>
+      </button>
+      <button
+        class="ant-btn ant-btn-default logout__button"
+        type="button"
+      >
+        <span>
+          No
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Main UI tests should render correctly 1`] = `
+<div>
+  <div
+    class="logout"
+  >
+    <h3
+      class="logout__title"
+    >
+      Logout
+    </h3>
+    <p
+      class="logout__text"
+    >
+      Do you really want to leave?
+    </p>
+    <div
+      class="logout__buttons"
+    >
+      <button
+        class="ant-btn ant-btn-default logout__button"
+        type="button"
+      >
+        <span>
+          Yes
+        </span>
+      </button>
+      <button
+        class="ant-btn ant-btn-default logout__button"
+        type="button"
+      >
+        <span>
+          No
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;

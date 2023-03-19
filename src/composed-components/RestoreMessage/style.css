@@ -1,0 +1,32 @@
+.restore-message {
+  padding: 62px 35px 0 35px;
+}
+
+.restore-message__title {
+  width: 200px;
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--color-primary);
+}
+
+.restore-message__description {
+  font-weight: 300;
+  margin-bottom: 32px;
+}
+
+.restore-message__btn {
+  background: var(--color-primary-blue);
+  border-radius: 15px;
+  width: 100%;
+  height: 48px;
+  border: none;
+}
+
+.restore-message__btn > span {
+  color: var(--color-secondary-white);
+}
+
+.restore-message__btn:hover,
+.restore-message__btn:focus {
+  background: var(--color-primary);
+}

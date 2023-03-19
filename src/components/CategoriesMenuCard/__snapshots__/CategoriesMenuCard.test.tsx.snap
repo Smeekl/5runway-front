@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Conditions UI tests should render correctly 1`] = `
+<div>
+  <div
+    class="categories-menu__item"
+    data-testid="wrapper"
+  >
+    <img
+      alt=""
+      class="categories-menu__img"
+      data-testid="image"
+    />
+    <p
+      class="categories-menu__title"
+      data-testid="title"
+    />
+  </div>
+</div>
+`;

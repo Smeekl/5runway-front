@@ -1,0 +1,28 @@
+.slider {
+  margin-bottom: 24px;
+  transition: all 0.3s;
+}
+
+.slider__inputs {
+  display: block;
+  transition: all 0.3s;
+}
+
+.slider__input {
+  width: 162px;
+  height: 40px;
+  border: 1px solid #DDE1F3;
+  border-radius: 15px;
+  padding-left: 20px;
+  margin-bottom: 24px;
+}
+
+.slider__input:first-child {
+  margin-right: 16px;
+}
+
+.slider .ant-slider-handle {
+  top: -7px;
+  height: 36px;
+  width: 36px;
+}

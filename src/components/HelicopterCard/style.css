@@ -1,0 +1,86 @@
+.helicopter__card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 350px;
+  height: 450px;
+}
+
+.card__name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.card__description {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.card__img {
+  border-radius: 20px;
+  max-width: 350px;
+  max-height: 232px;
+  margin-bottom: 15px;
+}
+
+.card__price_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card__compare_favorite {
+  width: 110px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card__price {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.card__place {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.card__hour {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.card__year {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.card__engine {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.card__block {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.card__items {
+  justify-content: flex-start;
+  width: 120px;
+  padding: 5px 5px 5px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.helicopter__card_icons {
+  margin-right: 15px;
+}
